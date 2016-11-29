@@ -68,6 +68,7 @@ Navigation CSS
   text-align: center;
   width: 100%;
   z-index: 10000;
+  border: 2px solid #1A7B72;
  }
 
 .navigation ul {
@@ -75,9 +76,8 @@ Navigation CSS
 }
 
 .navigation li {
-  color: #14213D;
+  color: #1A7B72;
   display: inline-block;
-  font-family: 'Bungee Inline', sans-serif;
   font-weight: 300;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -87,20 +87,22 @@ Navigation CSS
 .navleft {
 	float:left;
 	padding-left: 40px;
-	font-size: 30px;
+	font-size: 50px;
+	font-family: 'Bungee Inline', sans-serif;
 }
 
 .navright {
 	float:right;
-	font-size: 30px;
-	margin-right: 30px;
+	font-size: 20px;
+	margin-right: 40px;
 	text-align: justify;
+	font-family: "Freckle Face", sans-serif;
 }
 
 .navright img {
 	height: 40px;
 	width: 40px;
-	margin-right: 20px;
+	margin-right: 10px;
 	vertical-align: middle;
 }
 
@@ -138,7 +140,7 @@ Cover CSS
 
 /* 
 -------------------------------------------------
-Best CSS
+"Best" CSS
 -------------------------------------------------
 */
 
@@ -157,42 +159,166 @@ Best CSS
 	color: #1A7B72;
 }
 
+/* 
+-------------------------------------------------
+"Choose" CSS
+-------------------------------------------------
+*/
+
+.choose {
+  height: 40px;
+  text-align: center;
+  font-size: 22px;
+  font-style: italic;
+  line-height: 40px;
+  color: #1A7B72;
+  letter-spacing: 2px;
+  border: 2px solid #1A7B72;
+}
+
+/* 
+-------------------------------------------------
+Products CSS
+-------------------------------------------------
+*/
+.productbackground {
+	background-image: url("images/waves.jpg");
+}
 
 .products {
-  background: #EEEFF1;
-  box-sizing: border-box;
-  width: 90%;
-  margin: 20px auto;
-  padding: 20px 0px;
-  text-align: center;
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  background-image: url("images/waves.jpg");
 }
 
-.products h3 {
-  color: #14213D;
-  font-family: 'Abel', sans-serif;
-  font-size: 28px;
-  text-align: center;
-  text-transform: uppercase;
+.cart-box {
+  height: 300px;
+  width: 300px;
+  background: #29bcad;
+  float: left;
+  margin: 20px 8px 10px 8px;
 }
 
-.product {
+.title-box {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  line-height: 45px;
+  font-family: 'Freckle Face', sans-serif;
+}
+.img-box {
+  background: #fff;
+  margin-left: 5px;
+  width: 290px;
+  height: 200px;
+  border: 5px solid double #1A7B72;
+}
+
+.img-box img {
+  height: 200px;
+  max-width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tag-box {
+  position: relative;
+  height: 30px;
+  width: 70px;
+  background: #fff;
+  color: #666;
+  font-size: 18px;
+  border: 3px solid #1A7B72;
+  text-align: center;
+  line-height: 30px;
+  margin-top: -207px;
+  margin-left: 225px;
+}
+
+a .btn-box {
+  height: 30px;
+  width: 140px;
+  background: #80cec6;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  border: 3px solid #1A7B72;
+  text-align: center;
+  margin: 10px auto;
+  line-height: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* 
+-------------------------------------------------
+Page CSS
+-------------------------------------------------
+*/
+
+.pages {
+  height: 80px;
+  clear: both;
+  text-align: center;
+  letter-spacing: 5px;
+  font: 300 30px "Lobster";
+}
+
+.pages ul {
   display: inline-block;
-  margin: 0px 2% 80px 2%;
+}
+
+.pages li {
+  display: inline;
+  text-decoration: underline;
+  line-height: 80px;
+}
+
+.pages li a {
+  color: #995521;
+}
+
+
+
+footer {
+  font: 300 15px "Lobster", "Helvetica Neue", Arial, sans-serif;
+  height: 130px;
   text-align: center;
-  width: 45%;
+  color: #fff;
+  background: #29bcad;
+
 }
 
-.product img {
-  height: 100px;
-  width: 100px;
+footer h3 {
+  color: #F6B26B;
+  font-size: 20px;
+  margin-bottom: 8px;
+  padding-top: 10px;
+  text-align: center;
 }
 
+footer img {
+  width: 27px;
+}
 
+.contact {
+  display: block;
+  text-align: left;
+  width: 230px;
+  margin: 0 auto;
+}
 
-
-
-
-
+.contact h5 {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 20px;
+}
 
 
 
