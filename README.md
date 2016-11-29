@@ -1,3 +1,3 @@
 # Viking-Store
 
-Created a simple static e-commerce website through the use of html and css.
+Created a simple static e-commerce webpage through the use of html and css.
