@@ -54,6 +54,11 @@ body {
   padding: 0;
 }
 
+/* 
+-------------------------------------------------
+Navigation CSS
+-------------------------------------------------
+*/
 .navigation {
   background-color: rgba(255, 255, 255, 1);
   overflow-y: auto;
@@ -99,9 +104,88 @@ body {
 	vertical-align: middle;
 }
 
+/* 
+-------------------------------------------------
+Cover CSS
+-------------------------------------------------
+*/
+.cover {
+	background: url("images/viking_ship_background_medium.jpg") no-repeat top center;
+	background-position: center center;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+
+#cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position:relative;
+  top: 200px;
+  width: 70%;
+  bottom: 300px;
+}
+
+#cover-content h1{
+	font-size: 72px;
+	text-align: center;
+	line-height: 60px;
+	font-family: 'Bungee Inline', sans-serif;
+	padding: 20px 10px;
+	padding-bottom: 30px;
+	color:#1A7B72;
+}
+
+/* 
+-------------------------------------------------
+Best CSS
+-------------------------------------------------
+*/
+
+.best {
+  	text-align: center;
+  	margin: 0 auto;
+  	background-image: url("images/waves.jpg");
+  	padding-top: 40px;
+  	padding-bottom: 40px;
+}
+
+.best h2 {
+	color:white;
+	font-size: 50px;
+	font-family: 'Lobster', sans-serif;
+	color: #1A7B72;
+}
 
 
+.products {
+  background: #EEEFF1;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 0px;
+  text-align: center;
+}
 
+.products h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
+
+.product img {
+  height: 100px;
+  width: 100px;
+}
 
 
 
